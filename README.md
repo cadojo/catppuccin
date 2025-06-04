@@ -36,19 +36,37 @@
 
 ## Usage
 
-1. Download the flavor of your choice.
-2. Open the app and go to **Preferences** > **Appearance** > **Import theme**.
+1. Install this extension using the [Quarto CLI](https://quarto.org/docs/getting-started).
+
+If you already have a Quarto project, simply add this extension using `quarto add`.
+
+```shell
+quarto add catppuccin/quarto
+```
+
+If you're writing a new Quarto document (or project), the `quarto use template` command fetches this extension's example document.
+
+```shell
+quarto use template catppuccin/quarto
+```
+
+2. Select your desired flavor as a Quarto theme in your project's frontmatter.
+
+```yaml
+format:
+  html:
+    theme:
+      light:
+        - _extensions/catppuccin/latte.scss
+      dark:
+        - _extensions/catppuccin/frappe.scss
+```
+
 3. Select the downloaded flavor file.
-
-<!-- The FAQ section is optional. Remove if needed.-->
-## 🙋 FAQ
-
-- Q: **_"How can I do X?"_**\
-  A: ...
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [Joey Carpinelli](https://github.com/cadojo)
 
 &nbsp;
 

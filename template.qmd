@@ -1,0 +1,22 @@
+---
+title: Riemann Hypothesis Proof
+author: Joey Carpinelli
+date: last-modified
+
+format:
+  html:
+    theme: 
+      light:
+        - _extensions/catppuccin/latte.scss
+      dark:
+        - _extensions/catppuccin/frappe.scss
+---
+
+## Introduction
+
+This document uses the [Catppuccin](https://catppuccin.org) theme!
+
+## More Information
+
+You can learn more about controlling the appearance of HTML output [here](https://quarto.org/docs/output-formats/html-basics.html).
+
